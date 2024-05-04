@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#E9F3F0"
+    android:padding="16dp">
+
+
+    <RadioGroup
+        android:id="@+id/radioGroupConversionType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioButtonPoundToKilo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pound to Kilogram"/>
+
+        <RadioButton
+            android:id="@+id/radioButtonKiloToPound"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kilogram to Pound"/>
+
+        <RadioButton
+            android:id="@+id/radioButtonMileToKilo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mile to Kilometer"/>
+
+        <RadioButton
+            android:id="@+id/radioButtonKiloToMile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kilometer to Mile"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonSelectConversion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#009688"
+        android:layout_marginTop="20dp"
+        android:text="Select Conversion" />
+</LinearLayout>
